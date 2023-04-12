@@ -13,8 +13,8 @@ int seq1=1, seq2=2, seq3=3, seq4=4;
 void setup() {
   // put your setup code here, to run once:
   pinMode(a0, INPUT_PULLUP);   
-  pinMode(a1, INPUT);  
-  pinMode(b0, INPUT);    
+  pinMode(a1, INPUT_PULLUP);  
+  pinMode(b0, INPUT_PULLUP);    
   pinMode(b1, INPUT_PULLUP);
   pinMode(ae, OUTPUT);
   pinMode(ar, OUTPUT);
